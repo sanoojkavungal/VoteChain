@@ -3,6 +3,7 @@
 <head>
   <title>VoteChain</title>
   <meta charset="UTF-8" />
+
   <style>
     body {
       background: #0f0f0f;
@@ -11,7 +12,8 @@
       text-align: center;
       padding-top: 100px;
     }
-    a {
+
+    .btn {
       display: inline-block;
       margin: 20px;
       padding: 15px 30px;
@@ -19,20 +21,50 @@
       color: #00ffcc;
       text-decoration: none;
       border-radius: 6px;
+      font-weight: bold;
     }
-    a:hover {
+
+    .btn:hover {
       background: #00ffcc;
       color: black;
     }
+
+    /* GitHub button (smaller) */
+    .github-btn {
+      margin-top: 40px;
+      display: inline-block;
+      font-size: 14px;
+      color: #aaa;
+      text-decoration: none;
+      border: 1px solid #333;
+      padding: 8px 14px;
+      border-radius: 20px;
+    }
+
+    .github-btn:hover {
+      color: white;
+      border-color: #00ffcc;
+    }
   </style>
 </head>
+
 <body>
 
   <h1>🗳️ VoteChain</h1>
   <p>Decentralized Voting DApp</p>
 
-  <a href="/admin/">Admin Panel</a>
-  <a href="/user/">User Voting</a>
+  <a class="btn" href="/admin/">Admin Panel</a>
+  <a class="btn" href="/user/">User Voting</a>
+
+  <!-- GitHub Repo Link -->
+  <br />
+  <a
+    class="github-btn"
+    href="https://github.com/sanoojkavungal/VoteChain"
+    target="_blank"
+  >
+    ⭐ View Source on GitHub
+  </a>
 
 </body>
 </html>
