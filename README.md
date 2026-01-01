@@ -33,20 +33,7 @@ Vercel – Frontend deployment
 
 MetaMask – Wallet connection
 
-📁 Project Structure
-VoteChain/
-│
-├── contracts/
-│   └── VoteChain.sol        # Smart contract
-│
-├── frontend/
-│   ├── admin.html           # Admin panel
-│   ├── index.html           # User voting page
-│   ├── app.js               # Contract interaction logic
-│   └── style.css
-│
-├── vercel.json
-├── README.md
+
 
 🔐 Who is the Admin?
 
