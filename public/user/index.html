@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Voting dApp</title>
+
+  <!-- Ethers -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.2/dist/ethers.umd.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <button id="connectBtn">Connect Wallet</button>
+    <div id="wallet" class="wallet">Not Connected</div>
+  </header>
+
+  <!-- ACTIVE PROPOSALS -->
+  <section id="activeSection">
+    <h2>🗳 Active Proposals</h2>
+    <div id="activeProposals"></div>
+  </section>
+
+  <!-- COMPLETED PROPOSALS -->
+  <section id="completedSection">
+    <h2>✅ Completed Results (Last 2)</h2>
+    <div id="completedProposals"></div>
+  </section>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+
+</body>
+</html>

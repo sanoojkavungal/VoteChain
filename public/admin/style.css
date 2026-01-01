@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #111 0%, #000 60%);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 420px;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(20, 20, 20, 0.9);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.08);
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #00f0ff, #0077ff);
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #00f0ff;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #222;
+}
+
+.hidden {
+  display: none;
+}
+
+#walletAddress {
+  margin: 10px 0;
+  font-size: 13px;
+  color: #0ff;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.result-card {
+  background: #111;
+  border: 1px solid #222;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.result-card h4 {
+  margin: 0;
+  color: #fff;
+}
+
+.result-card p {
+  color: #aaa;
+  font-size: 14px;
+}
+

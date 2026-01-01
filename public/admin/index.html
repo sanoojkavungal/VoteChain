@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Panel | Voting DAO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🛡 Admin Control Panel</h1>
+    <p class="subtitle">Decentralized Proposal Management</p>
+
+    <button id="connectBtn">Connect Wallet</button>
+    <p id="walletAddress"></p>
+
+    <!-- CREATE PROPOSAL -->
+    <div class="card hidden" id="adminPanel">
+      <h2>Create Proposal</h2>
+      <input type="text" id="head" placeholder="Proposal Head" />
+      <input type="text" id="title" placeholder="Proposal Title" />
+      <input type="number" id="duration" placeholder="Duration (seconds)" />
+      <button id="createBtn">Create Proposal</button>
+      <p id="status"></p>
+    </div>
+
+    <!-- LAST 5 RESULTS -->
+    <div class="card hidden" id="resultsPanel">
+      <h2>📊 Last 5 Proposal Results</h2>
+      <div id="adminResults"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.8.1/dist/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
