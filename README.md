@@ -1,5 +1,7 @@
 🗳️ VoteChain – Decentralized Voting dApp
 
+Live Demo: https://vote-chain-gamma.vercel.app/
+
 VoteChain is a decentralized voting application built using Solidity, Ethereum, and JavaScript.
 It allows an admin to create proposals and users to vote transparently on the blockchain.
 
